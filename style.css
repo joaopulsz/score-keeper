@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    text-align: center;
+}
+
+#btn-container {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .8%;
+    padding-bottom: .8%;
+}
+
+#one-btn {
+    background-color: green;
+}
+
+#two-btn {
+    background-color: blue;
+    color: white;
+}
+
+#reset {
+    background-color: red;
+}

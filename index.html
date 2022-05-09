@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping-Pong Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <img src="ping.jpeg" alt="ping-pong">
+
+        <h1>Ping-Pong Score Keeper</h1>
+
+        <!-- <h2><span id="one-score"></span> to <span id="two-score"></span></h2> -->
+
+        <h2><span id="one-score" value="0"></span> to <span id="two-score"></span></h2>
+
+        <label for="max-points">Playing to:</label>
+        <select name="max-points" id="max-points">
+            <option value="placeholder" disabled selected>Select game length</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+        </select>
+
+        <p>Use the buttons below to keep score</p>
+
+        <div id="btn-container">
+            <button class="btn" id="one-btn">+1 Player One</button>
+            <button class="btn" id="two-btn">+1 Player Two</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
